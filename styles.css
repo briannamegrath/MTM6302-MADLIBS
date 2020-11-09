@@ -1,0 +1,87 @@
+html{
+font-family: 'Nanum Pen Script', cursive;
+background-color: papayawhip;
+}
+h1{
+ font-size: xx-large;
+}
+#container{
+  margin: 50px;
+}
+#container,p{
+  font-size:x-large;
+  margin-left: 110px;
+}
+.center-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-stories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  font-size: xx-large;
+  margin-top: 2%;;
+  height: 50px;
+  width: 1000px;
+  font-family: 'Nanum Pen Script', cursive;
+  margin-bottom: 2%;
+  display: block;
+  background-color: white;
+  border: none;
+}
+
+button:hover{
+  color: white;
+  background-color: #CD5D5D;
+}
+
+#center-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form{
+  display: none;
+}
+
+input{
+  color: grey;
+  font-size: x-large;
+  margin-top: 2%;;
+  height: 50px;
+  width: 1000px;
+  font-family: 'Nanum Pen Script', cursive;
+  margin-bottom: 2%;
+  display: block;
+  background-color: white;
+  border-color: lightgrey;
+  border-style: solid;
+}
+#submitMission{
+  color: black;
+}
+
+#submitMission:hover{
+  color: white;
+}
+
+#submitLunch{
+  color: black;
+}
+
+#submitLunch:hover{
+  color: white;
+}
+
+#submitWeather{
+  color: black;
+}
+
+#submitWeather:hover{
+  color: white;
+}
